@@ -75,7 +75,7 @@ const Navbar = () => {
                 <li className={`${LinkButtonSmall}`}><Link onClick={handleChange}>Logout</Link></li>
               </ul>
             </div> :
-            <Link to='/login' className={LinkButtonSmall}>Login</Link>
+            <Link to='/login' className={`${LinkButtonSmall} mx-4 md:mx-0`}>Login</Link>
         }
 
         {/* Small Screen dropdown navbar */}
