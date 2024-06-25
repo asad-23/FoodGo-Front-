@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy: {
       // '/api': 'http://localhost:5000'
-      '/api': 'https://mernstackfoodgo.onrender.com',
+      '/api': 'https://foodgo-back.onrender.com',
     }
   },
   plugins: [react()],
